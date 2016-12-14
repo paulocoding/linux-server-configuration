@@ -8,7 +8,10 @@ http://35.163.124.151/
 
 ##SSH
 You can connect by ssh using port 2200 and the rsa key provided.
-ssh -i [rsa key file] grader@35.163.124.151 -p 2200
+```
+	$ ssh -i [rsa key file] grader@35.163.124.151 -p 2200
+```
+
 
 ## Software installed
 apache2
