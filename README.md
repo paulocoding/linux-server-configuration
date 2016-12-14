@@ -21,20 +21,20 @@ python-psycopg2
 finger
 
 ## Configuration changes
-Updated all installed packages
-Changed ssh port to 2200
-Configured ssh to only allow key based access
-Set time to utc
-Configured ufw to only allow SSH (port 2200), HTTP (port 80), and NTP (port 123)
-Activated ufw
-Created and configured two new users:
-	grader(sudoer)
-	catalog (database owner)
-Setup PostgreSQL database for item catalog project
-Configured apache to server wsgi application Item catalog
-Customized Item catalog project to use PostgreSQL database
-Disabled listing of .git directory
-Disabled root ssh access
+* Updated all installed packages
+* Changed ssh port to 2200
+* Configured ssh to only allow key based access
+* Set time to utc
+* Configured ufw to only allow SSH (port 2200), HTTP (port 80), and NTP (port 123)
+* Activated ufw
+* Created and configured two new users:
+	* grader(sudoer)
+	* catalog (database owner)
+* Setup PostgreSQL database for item catalog project
+* Configured apache to server wsgi application Item catalog
+* Customized Item catalog project to use PostgreSQL database
+* Disabled listing of .git directory
+* Disabled root ssh access
 
 ## Third-party resources
 * https://ie.godaddy.com/help/changing-the-ssh-port-for-your-linux-server-7306
